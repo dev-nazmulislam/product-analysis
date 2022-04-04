@@ -1,19 +1,21 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import img1 from "../../assets/images/header.png";
 import img2 from "../../assets/images/aero-15-oled.png";
 import { ReviewContext } from "../../App";
 import Comment from "../Comment/Comment";
 
 const ShoDetail = () => {
+  const [img, setImg] = useState(true);
   const [reviews] = useContext(ReviewContext);
+
   return (
     <section className=" px-4 md:px-20">
       <div className="flex flex-col md:flex-row gap-4 my-12">
         <div className="md:w-1/4	">
-          <img src={img1} alt="" />
+          <img src={img ? img1 : img2} alt="" />
           <div className="flex justify-center items-center border-2 p-2">
-            <img width={80} src={img1} alt="" />
-            <img width={80} src={img2} alt="" />
+            <img onClick={() => setImg(true)} width={80} src={img1} alt="" />
+            <img onClick={() => setImg(false)} width={80} src={img2} alt="" />
           </div>
         </div>
         <div className="md:w-3/4">
