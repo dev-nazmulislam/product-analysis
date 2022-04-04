@@ -13,6 +13,7 @@ import Footer from "./components/Footer/Footer";
 import QuizOne from "./components/Blog/QuizOne";
 import QuizeTwo from "./components/Blog/QuizeTwo";
 import QuizeThree from "./components/Blog/QuizeThree";
+import ShoDetail from "./components/ShoDetail/ShoDetail";
 export const ReviewContext = createContext("review");
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/detail" element={<ShoDetail />} />
           <Route path="/review" element={<Review />} />
           <Route path="/deshboard" element={<Deshboard />} />
           <Route path="/blogs" element={<Blog />}>

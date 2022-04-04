@@ -17,7 +17,7 @@ const Home = () => {
             Gigabyte AERO 15 OLED KC Core i7 10th Gen
           </h1>
           <button
-            onClick={() => navigate("/product-details")}
+            onClick={() => navigate("/detail")}
             className="bg-blue-500 py-2 px-3 rounded-lg text-white mt-8 font-bold"
           >
             Show Details

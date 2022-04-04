@@ -3,7 +3,7 @@ import { StarIcon } from "@heroicons/react/solid";
 import "./Cart.css";
 
 const Cart = ({ review }) => {
-  const { name, img, ratting, time, description } = review;
+  const { name, img, time, description } = review;
   return (
     <div className="shadow-lg rounded-2xl bg-white p-4 ">
       <img className="card-img" src={img} alt="" />
