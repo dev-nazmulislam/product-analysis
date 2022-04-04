@@ -10,6 +10,9 @@ import NotFound from "./components/NotFound/NotFound.jsx";
 import { createContext } from "react";
 import useReview from "./Hooks/useLaptop.jsx";
 import Footer from "./components/Footer/Footer";
+import QuizOne from "./components/Blog/QuizOne";
+import QuizeTwo from "./components/Blog/QuizeTwo";
+import QuizeThree from "./components/Blog/QuizeThree";
 export const ReviewContext = createContext("review");
 
 function App() {
@@ -23,7 +26,11 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/review" element={<Review />} />
           <Route path="/deshboard" element={<Deshboard />} />
-          <Route path="/blogs" element={<Blog />} />
+          <Route path="/blogs" element={<Blog />}>
+            <Route path="quizOne" element={<QuizOne />} />
+            <Route path="quizTwo" element={<QuizeTwo />} />
+            <Route path="quizThree" element={<QuizeThree />} />
+          </Route>
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

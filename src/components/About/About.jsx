@@ -2,9 +2,39 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
-      <h1>This is About page</h1>
-    </div>
+    <section class="px-4 mx-auto md:px-20">
+      <h1 className="text-4xl my-4 mt-20">About Smart Tech</h1>
+      <p>
+        Smart Tech has been founded on 1 March 2007. From then to now, Smart
+        Tech has won the heart of many people and now is a country-wide renowned
+        brand. That has been possible due to the hard work Smart Tech has done
+        to satisfy its customers. Having the aim to satisfy customers, providing
+        customers with their required products, and being true to their motto,
+        “Customers Come First,” has brought Smart Tech to the top of the
+        E-Commerce Site and also is one of the largest Computer and Technology
+        product retailers. Smart Tech has over 300 employees and is growing more
+        and more, working diligently to fulfill the Main Criteria of Smart Techs
+        Motto or Vision. Smart Tech is located in 4 central territories, Dhaka,
+        Gazipur, Chattogram, Khulna, and Rangpur, and has 13 outlets from where
+        you can get your desired tech products. There are nine outlets in Dhaka
+        alone because Dhaka is the capital city, there is one outlet in Gazipur,
+        one outlet in Chattogram, one outlet in Khulna, and the final outlet is
+        in Rangpur.
+      </p>
+      <h1 className="text-4xl my-2 mt-20">The Main Goal and Aim</h1>
+      <p>
+        We are Smart Tech, and we are here to help you with all your technology
+        needs. We aim to provide all the requirements of our customers and help
+        them satisfy their needs, wants, and desires. We delight in seeing our
+        customers happy and satisfied with our resiliency in providing them with
+        their products. Our complete focus is on the customers. We keep tabs and
+        records on what our customers want, and we try our level best to bring
+        that for them. We are already providing our customers with the delivery
+        system so that they can order online and receive their products from
+        their area. They do not have to travel long distances to get their
+        desired product.
+      </p>
+    </section>
   );
 };
 
