@@ -6,7 +6,7 @@
 
 [Github Link](https://github.com/programming-hero-web-course-4/product-analysis-website-dev-nazmulislam)
 
-# Language Used
+# Language & Framwork Used
 
 1. React
 2. Tailwind
