@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import CustomLink from "../CustomLink/CustomLink";
 import { MenuAlt3Icon, XIcon } from "@heroicons/react/solid";
+import "./Header.css";
 
 const Header = () => {
   const [open, setOpen] = useState(true);
 
   return (
-    <div className="sticky top-0 bg-white px-12 py-8 flex flex-col md:flex-row justify-center items-center md:justify-between">
+    <div className="sticky top-0 bg-white px-12 py-8 flex flex-col md:flex-row justify-center items-center md:justify-between header-container">
       <div>
         <Link to="/" className="font-bold text-3xl text-gray-600">
           Smart tech

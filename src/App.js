@@ -9,6 +9,7 @@ import About from "./components/About/About.jsx";
 import NotFound from "./components/NotFound/NotFound.jsx";
 import { createContext } from "react";
 import useReview from "./Hooks/useLaptop.jsx";
+import Footer from "./components/Footer/Footer";
 export const ReviewContext = createContext("review");
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
   return (
     <div>
       <ReviewContext.Provider value={[reviews, setReviews]}>
-        <Header></Header>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -26,6 +27,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </ReviewContext.Provider>
     </div>
   );
