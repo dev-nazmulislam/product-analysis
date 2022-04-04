@@ -4,6 +4,7 @@ const QuizeTwo = () => {
   return (
     <div className="p-4">
       <h1 className="text-2xl">Question-2: What is semantic tag?</h1>
+      <h1 className="text-2xl mt-4">Answer:</h1>
       <h2 className="text-2xl py-2">Semantic Tags</h2>
       <p>
         The semantic HTML tags help the search engines and other user devices to

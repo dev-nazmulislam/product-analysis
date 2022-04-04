@@ -4,6 +4,7 @@ const QuizOne = () => {
   return (
     <div className="p-4">
       <h1 className="text-2xl">Question 1: What is ContexAPI?</h1>
+      <h1 className="text-2xl mt-4">Answer:</h1>
       <h1 className="text-2xl py-2">Context API</h1>
       <p>
         Context is an API that is built into React. Context API provides us to

@@ -1,6 +1,10 @@
 # Hello, I am Nazmul Islam 😊
 
-### WebSite Name: # Smart tech (Fully Responsive)
+### This is Smart tech (Fully Responsive) Website
+
+[Live Site Link](https://smart-tech-web.netlify.app/)
+
+[Github Link](https://github.com/programming-hero-web-course-4/product-analysis-website-dev-nazmulislam)
 
 # Language Used
 
